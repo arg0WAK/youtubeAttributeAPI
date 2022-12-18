@@ -1,0 +1,10 @@
+iframe {
+    user-select: none;
+    border-radius: 10px;
+}
+
+.nowrap {
+    overflow: hidden;
+    aspect-ratio: 16/9;
+    pointer-events: none !important;
+}
