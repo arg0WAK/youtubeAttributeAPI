@@ -34,7 +34,7 @@ Include the relevant files in your project.
 ```
 or import noWrap.css directly into your main style file as follows.
 ```bash
-  @import "/dist/css/noWrap.css";
+  @import "noWrap.css";
 ```
 Use the following line of HTML to call a simple iFrame on the DOM.
 
@@ -65,6 +65,7 @@ Now let's define a play ID for this iFrame that is called into the DOM.
 
     </div>
 ```
+if you want use 16/9 mode you should be add ".nowrap" class in ".player" classList.
 
 #### All Properties
 
