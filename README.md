@@ -67,6 +67,46 @@ Now let's define a play ID for this iFrame that is called into the DOM.
 ```
 if you want use 16/9 mode you should be add ".nowrap" class in ".player" classList.
 
+### Lower Segment Devices
+By default, Youtube keeps autoplay support turned off on mobile devices, taking into account user interaction. If you want to activate this event, you should use the states on the official documentation.
+
+[See Details](https://developers.google.com/youtube/iframe_api_reference)
+
+If you want to use that, you must assign the value "1" to the "data-inline" attribute of the corresponding video ID.
+You can see example codes below.
+
+#### By default it's in the api.js file.
+
+```bash
+  <div class="player" data-identity="<YOUR-VIDEO-ID>" data-inline="1"></div>
+```
+
+```bash
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+```
+
 #### All Properties
 
 | Parameter | useOfAttr     | Definition     | Obligation               |
