@@ -81,6 +81,9 @@ hr {
     font-size: 14px;
 }
 
+iframe {
+    border-radius: 10px;
+}
 
 .properties span {
     text-align: end;
