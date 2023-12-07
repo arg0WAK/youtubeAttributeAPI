@@ -6,7 +6,7 @@
 Clone the repository as per the instruction below.
 
 ```bash
-  git clone https://github.com/barisalby/youtubeAttributeAPI.git
+  git clone git@github.com:arg0WAK/youtubeAttributeAPI.git
   cd youtubeAttributeAPI
 ```
 Include the relevant files in your project.
