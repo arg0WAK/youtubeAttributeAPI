@@ -1,5 +1,5 @@
-<h1 class="filter">Customizable iFrame Player API from Attr</h1>
-<p class="filter">This project was written with the aim of providing comprehensive management of Youtube iFrame Player API published by Google over data-attr.</p>
+# Customizable iFrame Player API from Attr
+<span>This project was written with the aim of providing comprehensive management of Youtube iFrame Player API published by Google over data-attr.</span>
 
 ## Installation
 
@@ -124,4 +124,4 @@ You can see example codes below.
 
 Here you can access the preview and detailed instruction page.
 
-[See Demo](https://barisalbayrak.net/youtubeAttributeAPI)
+[See Demo](https://arg0wak.github.io/youtubeAttributeAPI)
