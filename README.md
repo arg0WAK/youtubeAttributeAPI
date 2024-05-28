@@ -1,7 +1,12 @@
-<span><h1>Customizable iFrame Player API from Attr</h1></span>
-<br/>
+<span>
+  <a href="https://choosealicense.com/licenses/mit/">
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="MIT License">
+  </a>
+</span>
+
+<h1>Customizable iFrame Player API from Attr</h1>
+
 <span>This project was written with the aim of providing comprehensive management of Youtube iFrame Player API published by Google over data-attr.</span>
-<br/>
 ## Installation
 
 Clone the repository as per the instruction below.
